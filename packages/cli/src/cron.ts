@@ -1,4 +1,4 @@
-import { CronJob } from "cron";
+import CronJob from "cron";
 import https from "https";
 
 const URL: string = "https://mxc-1y0v.onrender.com";
@@ -18,3 +18,4 @@ const job: CronJob = new cron.CronJob("*/14 * * * *", function (): void {
 });
 
 export default job;
+
