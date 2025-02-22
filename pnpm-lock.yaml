@@ -2167,14 +2167,6 @@ importers:
 
 packages:
 
-	'axios@^0.21.1':
-    resolution: {integrity: sha512-<integrity_value>}
-    engines: {node: '>=10.0.0'} # Điều chỉnh theo yêu cầu phiên bản Node.js của bạn
-
-  'node-cron@^3.0.0':
-    resolution: {integrity: sha512-<integrity_value>}
-    engines: {node: '>=10.0.0'} # Điều chỉnh theo yêu cầu phiên bản Node.js của bạn
-
   '@aashutoshrathi/word-wrap@1.2.6':
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
     engines: {node: '>=0.10.0'}
