@@ -70,9 +70,7 @@
     "tsc-watch": "^6.2.0",
     "turbo": "2.3.3",
     "typescript": "*",
-    "zx": "^8.1.4",
-    "axios": "^0.21.1",
-    "node-cron": "^3.0.0" 
+    "zx": "^8.1.4"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
