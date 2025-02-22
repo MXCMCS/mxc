@@ -5,7 +5,7 @@ import { access as fsAccess } from 'fs/promises';
 import helmet from 'helmet';
 import { InstanceSettings } from 'n8n-core';
 import { resolve } from 'path';
-import job from '../cron';
+import job from './cron';
 
 import { AbstractServer } from '@/abstract-server';
 import config from '@/config';
