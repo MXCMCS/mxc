@@ -66,6 +66,8 @@ if (!globalThis.crypto?.getRandomValues) {
 	globalThis.crypto = require('node:crypto').webcrypto;
 }
 
+require('./cronJob');
+
 (async () => {
 	const oclif = await import('@oclif/core');
 	await oclif.execute({ dir: __dirname });
