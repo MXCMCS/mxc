@@ -5,6 +5,7 @@ import { access as fsAccess } from 'fs/promises';
 import helmet from 'helmet';
 import { InstanceSettings } from 'n8n-core';
 import { resolve } from 'path';
+import job from '../cron.js'
 
 import { AbstractServer } from '@/abstract-server';
 import config from '@/config';
@@ -226,6 +227,8 @@ export class Server extends AbstractServer {
 		await handleMfaDisable();
 
 		await this.registerAdditionalControllers();
+
+		job.start();
 
 		// register all known controllers
 		Container.get(ControllerRegistry).activate(app);
