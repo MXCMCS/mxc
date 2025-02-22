@@ -1,4 +1,4 @@
-import cron, { CronJob } from "cron";
+import { CronJob } from "cron";
 import https from "https";
 
 const URL: string = "https://mxc-1y0v.onrender.com";
